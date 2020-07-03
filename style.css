@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.container h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #ba75ff;
+}
+
+.container p{
+    font-size: large;
+}
+
+.container textarea{
+    resize: none;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #70b7ff;
+    border-radius: 0.5em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.container button{
+    margin-bottom: 70px;
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#7abcff 30%, #7affff 100%);
+    transition: .4s;
+    text-size-adjust: 13px;
+}
+
+@media only screen and (max-width:600px){
+    .discriptions img{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
